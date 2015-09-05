@@ -3,17 +3,68 @@
 	{
 		"selected_items":
 		[
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"margin-",
+				"margin-left"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "styles/style.css",
+			"settings":
+			{
+				"buffer_size": 687,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "main.html",
 			"settings":
 			{
-				"buffer_size": 132,
-				"line_ending": "Unix",
-				"name": "<html>"
+				"buffer_size": 721,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/reset.css",
+			"settings":
+			{
+				"buffer_size": 1092,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -41,6 +92,7 @@
 	},
 	"file_history":
 	[
+		"/Users/oleg/Documents/Web Projects/StmForAll/Mobile/main.html"
 	],
 	"find":
 	{
@@ -80,24 +132,77 @@
 			[
 				{
 					"buffer": 0,
-					"file": "main.html",
+					"file": "styles/style.css",
 					"settings":
 					{
-						"buffer_size": 132,
+						"buffer_size": 687,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								132,
-								132
+								583,
+								583
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<html>",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.html",
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "styles/reset.css",
+					"settings":
+					{
+						"buffer_size": 1092,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1092,
+								1092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -114,7 +219,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{

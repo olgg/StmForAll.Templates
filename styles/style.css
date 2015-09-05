@@ -1,16 +1,57 @@
 body
 {
 	background: #D8D8D8;
+	min-width: 320px;
+	font-family: ArialMT;
 }
 
 .logo
 {
-	background: #2B5A89;
+	background: #2B5A89 url(../images/header-bg.jpg) repeat-x;
 	height: 67px;
+}
+
+.logo img
+{
+	margin-left: 14px;
+	margin-top: 14px;
+	float: left;
+}
+
+.logo #slogan
+{
+	float: right;
+	margin-top: 11px;
+	margin-right: 11px;
+}
+
+.logo #slogan #slogan-first
+{
+	/* Стоматология для все: */
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 21px;
+}
+
+.logo #slogan #slogan-last
+{
+	/* и для здоровья Ваших: */
+	font-size: 14px;
+	color: #053463;
+	line-height: 16px;
+	padding-left: 5px;
 }
 
 menu
 {
 	background: #FFFFFF;
+}
+
+menu ul li
+{
+	display: inline;
+	padding-left: 20px;
+	border: 1px solid red;
+	text-align: center;
 }
 
