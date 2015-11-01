@@ -45,32 +45,50 @@ body
 menu
 {
 	background: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+/*	height: 36px; */
+
+	/* Шрифт */
+	font-family: ArialMT;
+	font-size: 12px;
+	color: #76C3EF;
+	line-height: 14px;
 }
 
 menu ul li
 {
 	display: inline;
+
 /*	padding-left: 2%;
-	padding-right: 2%;*/
+	padding-right: 2%;
 	border: 1px solid red;
+*/
 	text-align: center;
-	margin-right: 5%;
-	margin-left: 5%
-	width: 80px;
+	margin-right: 4%;
+	margin-left: 4%;
+	padding: 1px 4px; 
+/*	width: 80px;	*/
 }
 
 menu ul li:first-child
 {
-	padding-left: 10px;
+	/*padding-left: 10px;*/
 }
 
 menu ul li.current-item
 {
-	border: 1px solid green;
+	/* Текущий пункт меню */
+	background: #2B5A89;
+	border: 1px solid #979797;
+	border-radius: 4px;
 }
 
-
-
+.main-content
+{
+	background-color: #FFFFFF;
+	margin: 10px;
+}
 
 
 
