@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"padding"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
 				"p",
 				"padding-left"
 			],
@@ -16,24 +44,12 @@
 				"min-width"
 			],
 			[
-				"in",
-				"inline-block"
-			],
-			[
 				"di",
 				"display"
 			],
 			[
-				"pa",
-				"padding-left"
-			],
-			[
 				"mi",
 				"min-width"
-			],
-			[
-				"ma",
-				"margin-right"
 			],
 			[
 				"margin-",
@@ -44,26 +60,26 @@
 	"buffers":
 	[
 		{
-			"file": "styles/style.css",
-			"settings":
-			{
-				"buffer_size": 687,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "main.html",
 			"settings":
 			{
-				"buffer_size": 721,
+				"buffer_size": 1420,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "styles/reset.css",
+			"file": "styles/main.css",
 			"settings":
 			{
-				"buffer_size": 1092,
+				"buffer_size": 515,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/style.css",
+			"settings":
+			{
+				"buffer_size": 1127,
 				"line_ending": "Unix"
 			}
 		}
@@ -92,11 +108,13 @@
 	},
 	"file_history":
 	[
+		"/Users/oleg/Documents/Web Projects/StmForAll/Mobile/styles/reset.css",
+		"/Users/oleg/Documents/Web Projects/StmForAll/Mobile/styles/style.css",
 		"/Users/oleg/Documents/Web Projects/StmForAll/Mobile/main.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -132,44 +150,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "styles/style.css",
-					"settings":
-					{
-						"buffer_size": 687,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								583,
-								583
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "main.html",
 					"settings":
 					{
-						"buffer_size": 721,
+						"buffer_size": 1420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								388,
-								399
+								561,
+								561
 							]
 						],
 						"settings":
@@ -184,19 +176,45 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "styles/reset.css",
+					"buffer": 1,
+					"file": "styles/main.css",
 					"settings":
 					{
-						"buffer_size": 1092,
+						"buffer_size": 515,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1092,
-								1092
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "styles/style.css",
+					"settings":
+					{
+						"buffer_size": 1127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":

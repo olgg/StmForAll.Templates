@@ -1,0 +1,56 @@
+.main-content
+{
+	background-color: #FFFFFF;
+	margin: 5px;
+}
+
+.main-content ul li
+{
+	border-bottom: 1px solid #CCC;
+
+	font-size: 14px;	
+	color: #5F5F5F;
+	line-height: 16px;
+
+	padding: 5px;
+}
+
+.nav-image
+{
+	float: right;	
+}
+
+.nav-image, .header-image
+{
+	vertical-align: middle;
+}
+
+.main-content ul li
+{
+	height: 32px;
+}
+
+.main-content ul li:first-child
+{
+	font-family: Helvetica-Bold;
+	font-size: 18px;
+	color: #76C3EF;
+
+	background: #F3F3F3;
+
+
+}
+
+.block-header
+{
+	display: inline;
+}
+
+.block-header-text
+{
+	margin-left: 5px;
+}
+
+
+
+
