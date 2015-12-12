@@ -4,28 +4,36 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"font-weight"
+			],
+			[
 				"pa",
 				"padding"
 			],
 			[
 				"ma",
-				"margin-top"
+				"margin"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ta",
+				"table-cell"
 			],
 			[
 				"bl",
 				"inline-block"
 			],
 			[
-				"in",
-				"inline"
-			],
-			[
 				"ba",
 				"background-color"
-			],
-			[
-				"fo",
-				"font-size"
 			],
 			[
 				"pad",
@@ -63,7 +71,7 @@
 			"file": "main.html",
 			"settings":
 			{
-				"buffer_size": 1420,
+				"buffer_size": 2183,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,16 +79,24 @@
 			"file": "styles/main.css",
 			"settings":
 			{
-				"buffer_size": 515,
+				"buffer_size": 2774,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "styles/style.css",
+			"file": "/Users/oleg/Documents/Web Projects/StmForAll/MobileHtml/index.html",
 			"settings":
 			{
-				"buffer_size": 1127,
-				"line_ending": "Unix"
+				"buffer_size": 1433,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/oleg/Documents/Web Projects/StmForAll/MobileHtml/style.css",
+			"settings":
+			{
+				"buffer_size": 1000,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -108,8 +124,9 @@
 	},
 	"file_history":
 	[
-		"/Users/oleg/Documents/Web Projects/StmForAll/Mobile/styles/reset.css",
 		"/Users/oleg/Documents/Web Projects/StmForAll/Mobile/styles/style.css",
+		"/Users/oleg/Documents/Web Projects/StmForAll/Mobile/Mobile template.sublime-workspace",
+		"/Users/oleg/Documents/Web Projects/StmForAll/Mobile/styles/reset.css",
 		"/Users/oleg/Documents/Web Projects/StmForAll/Mobile/main.html"
 	],
 	"find":
@@ -128,6 +145,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h32",
+			"	\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -153,15 +172,15 @@
 					"file": "main.html",
 					"settings":
 					{
-						"buffer_size": 1420,
+						"buffer_size": 2183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								561,
-								561
+								1972,
+								1972
 							]
 						],
 						"settings":
@@ -170,7 +189,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 41.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -180,41 +199,15 @@
 					"file": "styles/main.css",
 					"settings":
 					{
-						"buffer_size": 515,
+						"buffer_size": 2774,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "styles/style.css",
-					"settings":
-					{
-						"buffer_size": 1127,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								1473,
+								1473
 							]
 						],
 						"settings":
@@ -223,7 +216,62 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+						"translation.y": 875.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/oleg/Documents/Web Projects/StmForAll/MobileHtml/index.html",
+					"settings":
+					{
+						"buffer_size": 1433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								977,
+								977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/oleg/Documents/Web Projects/StmForAll/MobileHtml/style.css",
+					"settings":
+					{
+						"buffer_size": 1000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -287,6 +335,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 284.0,
 	"status_bar_visible": true
 }
