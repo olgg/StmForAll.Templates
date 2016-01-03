@@ -7,68 +7,66 @@ body
 
 .logo
 {
+	position: relative;
 	background: #2B5A89 url(../images/header-bg.jpg) repeat-x;
-	height: 67px;
+	height: 200px;
 }
 
 .logo img
 {
-	margin-left: 14px;
-	margin-top: 14px;
-	float: left;
+	top: 50%;
+	margin-top: -80px;
+	position: absolute;	
 }
 
 .logo #slogan
 {
-	float: right;
-	margin-top: 11px;
-	margin-right: 11px;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+
+	margin-top: -35px;
+	margin-right: 50px;
 }
 
 .logo #slogan #slogan-first
 {
 	/* Стоматология для все: */
-	font-size: 18px;
+	font-size: 2.4em;
 	color: #FFFFFF;
-	line-height: 21px;
 }
 
 .logo #slogan #slogan-last
 {
 	/* и для здоровья Ваших: */
-	font-size: 14px;
+	font-size: 2.2em;
 	color: #053463;
-	line-height: 16px;
 	padding-left: 5px;
 }
 
-menu
+#menu
 {
 	background: #FFFFFF;
 	padding-top: 10px;
 	padding-bottom: 10px;
-/*	height: 36px; */
-
-	/* Шрифт */
-	font-family: ArialMT;
-	font-size: 12px;
-	color: #76C3EF;
-	line-height: 14px;
 }
 
-menu ul li
+#menu a
 {
-	display: inline;
+	display: inline-block;
 
-/*	padding-left: 2%;
-	padding-right: 2%;
-	border: 1px solid red;
-*/
 	text-align: center;
-	margin-right: 4%;
-	margin-left: 4%;
-	padding: 1px 4px; 
-/*	width: 80px;	*/
+	
+	margin-right: 10px;
+	margin-left: 10px;
+	
+	padding: 5px 20px; 
+
+		/* Шрифт */
+	font-family: ArialMT;
+	font-size: 2.5em;
+	color: #76C3EF;
+	text-decoration: none;
 }
 
 menu ul li:first-child
@@ -76,7 +74,7 @@ menu ul li:first-child
 	/*padding-left: 10px;*/
 }
 
-menu ul li.current-item
+#menu a.current-item
 {
 	/* Текущий пункт меню */
 	background: #2B5A89;
