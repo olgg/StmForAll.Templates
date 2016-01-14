@@ -1,35 +1,33 @@
-.main-content
-{
-	background-color: #FFFFFF;
-	margin: 5px;
-}
-
 main a
 {
 	display:block;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 4px;
+	margin-right: 4px;
 	position: relative;	
 
 	background-color: #FCFCFC;
-	border-bottom: 3px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
 
 
 	font-family: ArialMT;
-	font-size: 3em;
+	/*font-size: 1em;*/
 
 	color: #5F5F5F;
-	line-height: 16px;
 }
 
 .list-title
 {
-	margin-top: 10px;
+	margin-top: 3px;
 
 	background-color: #F3F3F3;
 	font-family: Helvetica-Bold;
-	font-size: 3.4em;
+	font-size: 1.28em;
 	color: #76C3EF;
+}
+
+.list-text 
+{
+	font-size: 1.1em;
 }
 
 main a div
@@ -38,10 +36,8 @@ main a div
 	display: inline-block;
 	overflow: hidden;
 
-	line-height: 1.2em;
-
-	padding-top: 9px;
-	padding-bottom: 9px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 .list-item
@@ -58,59 +54,59 @@ main a div
 
 .list-header
 {
-	padding-left: 70px;	
+	padding-left: 25px;	
 }
 
 .side-image-h32
 {
 	position: absolute;	
-	height: 64px;
+	height: 32px;
 	top: 50%;
-	margin-top: -32px;
+	margin-top: -16px;
 	background-repeat: no-repeat;	
 }
 
 .side-image-h12
 {
 	position: absolute;	
-	height: 12px;
+	height: 18px;
 	top: 50%;
-	margin-top: -6px;
+	margin-top: -9px;
 	background-repeat: no-repeat;	
 }
 
 .nav-header
 {
 	background-image: url("../images/arrow_right_hover.png");
-	width: 64px;
+	width: 32px;
 
-	background-size: 64px 64px;
-	right: 12px;
+	background-size: 32px 32px;
+	right: 6px;
 }
 
 .nav-item
 {
 	background-image: url("../images/arrow.png");
-	width: 14px;
+	width: 15px;
 
-	background-size: 14px 24px;
-	right: 36px;
+	background-size: 15px 18px;
+	right: 12px;
 }
 
 .menu-icon1
 {
 	background-image: url("../images/pic1.png");
-	width: 58px;
-	background-size: 58px 64px;
-	left: 6px;
+	width: 29px;
+	background-size: 29px 32px;
+	left: 3px;
 }
 
 .menu-icon2
 {
 	background-image: url("../images/pic2.png");
-	width: 58px;
-	background-size: 58px 64px;
-	left: 6px;
+	width: 29px;
+	background-size: 29px 32px;
+	left: 3px;
 }
 
 .clear
