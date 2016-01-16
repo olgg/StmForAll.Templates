@@ -1,0 +1,28 @@
+.article-container
+{
+	margin: 3px 3px 5px;
+	background-color: #FFF;
+	color: #333;
+}
+
+.article-container h1
+{
+	display: block;
+	font-size: 1.3em;
+	padding: 7px 10px;
+}
+
+.article-container h2
+{
+	padding: 7px 10px 0;
+	margin-bottom: 9px;
+
+	font-weight: bold;
+	font-size: 1.05em;
+}
+
+.article-container p
+{
+	padding: 7px 10px;
+}
+
